@@ -1,0 +1,6 @@
+backend/credentials/*
+backend/pastebin/.mvn
+.vscode
+frontend/.next
+frontend/node_modules
+

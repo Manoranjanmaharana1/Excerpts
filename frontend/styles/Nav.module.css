@@ -1,0 +1,40 @@
+.navbar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.navItems {
+    display: inline-block;
+    padding: 1em;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    margin-left: 1em;
+}
+
+.navItems a {
+    color: grey;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.logo {
+    padding: 0.5rem;
+    width: 15%;
+    height: 50%;
+    min-width: 12em;
+}
+
+.navItems a:hover {
+    color: black;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.navItems a:active {
+    color: black;
+}
+
+.navItems a:focus {
+    color: blue;
+}
